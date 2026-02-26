@@ -1,0 +1,30 @@
+[
+  {
+    "case": "valid_user",
+    "name": "Sanjay",
+    "email": "sanjay@test.com",
+    "age": 25,
+    "expect_valid": true
+  },
+  {
+    "case": "empty_name",
+    "name": "",
+    "email": "jeevan@test.com",
+    "age": 25,
+    "expect_valid": false
+  },
+  {
+    "case": "invalid_email",
+    "name": "Jeevan",
+    "email": "invalid-email",
+    "age": 25,
+    "expect_valid": false
+  },
+  {
+    "case": "invalid_age",
+    "name": "Jeevan",
+    "email": "jeevan@test.com",
+    "age": -5,
+    "expect_valid": false
+  }
+]
